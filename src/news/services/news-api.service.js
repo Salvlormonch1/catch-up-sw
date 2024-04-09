@@ -6,7 +6,7 @@
 
 // create axios instance with predefined properties
  const http = axios.create({
-     baseUrl: 'https://newsapi.org/v2/'
+     baseURL: 'https://newsapi.org/v2',
  });
 
  export class NewsApiService {
