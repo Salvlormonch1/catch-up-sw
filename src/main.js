@@ -25,7 +25,7 @@ import 'primevue/resources/themes/md-light-indigo/theme.css'
 
 const app = createApp(App);
 app.use(PrimeVue, { ripple: true })
-    .component('p-card', Card)
+    .component('pv-card', Card)
     .component('pv-button', Button)
     .component('pv-select-button', SelectButton)
     .component('pv-sidebar', Sidebar)
