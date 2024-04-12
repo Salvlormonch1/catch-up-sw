@@ -4,7 +4,7 @@ import PvAvatar from "../../main.js";
 
 export default {
   name: "side-menu",
-  components: {PvAvatar},
+  components: {Avatar},
   props: { visible: Boolean },
   data() {
     return {
